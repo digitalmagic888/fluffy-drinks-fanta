@@ -1,0 +1,38 @@
+.header {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .imageContainer {
+    position: relative;
+  }
+  
+  .imageText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(255, 170, 0, 0.8);
+    font-size: 14px;
+  }
+  
+  .btn {
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  @media (max-width: 768px) {
+    .imageText {
+      position: relative;
+      padding: 10px;
+      background-color: transparent;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
