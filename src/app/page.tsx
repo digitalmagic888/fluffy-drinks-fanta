@@ -16,9 +16,9 @@ const Home = () => {
           <div className={styles.imageText}>
             <p>Total Supply: 4.20B</p>
             <p>6% tax tokenomics</p>
-            <p>3% HOA Rewards</p>
+            <p>3% HOA Burn</p>
             <p>2% LP</p>
-            <p>1% Marketing Wallet</p>
+            <p>1% HOA Rewards</p>
             <a href="https://app.pulsex.com/swap?outputCurrency=0x01287409d65Afb751261e5A7AB8B286770753734&chain=pulsechain" className={styles.btn}>Buy $FLUFFY</a>
           </div>
         </div>
